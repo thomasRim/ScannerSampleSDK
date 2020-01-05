@@ -22,7 +22,6 @@
 		CECB2E701FE5E7FF00DAED55 /* CustomShaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB2E651FE5E7FF00DAED55 /* CustomShaders.swift */; };
 		CECB2E711FE5E7FF00DAED55 /* ViewController+OpenGL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB2E661FE5E7FF00DAED55 /* ViewController+OpenGL.swift */; };
 		CECB2E781FE5E95F00DAED55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECB2E751FE5E95F00DAED55 /* Main.storyboard */; };
-		CECB2E821FE5F0E900DAED55 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB2E801FE5F0E900DAED55 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +45,6 @@
 		CECB2E651FE5E7FF00DAED55 /* CustomShaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShaders.swift; sourceTree = "<group>"; };
 		CECB2E661FE5E7FF00DAED55 /* ViewController+OpenGL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+OpenGL.swift"; sourceTree = "<group>"; };
 		CECB2E761FE5E95F00DAED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CECB2E801FE5F0E900DAED55 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CECB2E821FE5F0E900DAED55 /* libc++.tbd in Frameworks */,
 				8EEA4F6A1522A77E9FC68AA6 /* libPods-RRStructureScanner5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +89,6 @@
 		CECB2E481FE5E77900DAED55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CECB2E801FE5F0E900DAED55 /* libc++.tbd */,
 				B868F6972A6692421AA8A44B /* libPods-RRStructureScanner5.a */,
 			);
 			name = Frameworks;
